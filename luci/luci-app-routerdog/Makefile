@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 LUCI_TITLE:=RouterDog
 PKG_VERSION:=1.4.9
 PKG_RELEASE:=
-LUCI_DEPENDS:=+routergo +luci-app-store +luci-lib-taskd
+LUCI_DEPENDS:=+routergo +luci-app-store +luci-app-linkease +luci-lib-taskd
 LUCI_MINIFY_CSS:=0
 LUCI_MINIFY_JS:=0
 
